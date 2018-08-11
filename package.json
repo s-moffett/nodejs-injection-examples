@@ -1,0 +1,16 @@
+{
+  "name": "nodeinjection",
+  "version": "1.0.0",
+  "description": "Examples of injection risks in the Node.js ecosystem.",
+  "main": "sql_vulnerable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seth Moffett",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "htmlencode": "0.0.4",
+    "sqlstring": "^2.3.1"
+  }
+}
