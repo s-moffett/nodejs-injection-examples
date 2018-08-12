@@ -18,7 +18,6 @@ app.get('/:data', (req, res) => {
 
   var encodedString = sqlstring.escape(req.params['data']);
   var sql = 'SELECT * FROM Users WHERE LastName = \'' + encodedString + '\';';
-  console.log('SELECT * FROM Users WHERE LastName = \'' + encodedString + '\';');
   res.send('Executing command: ' + sql);
 });
 
